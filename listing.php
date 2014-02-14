@@ -24,7 +24,7 @@
 						<tr>
 							<td><?php echo $prod->product_name ?></td>
 							<td>
-								<?php button_action("panel/product/show/$prod->product_id","Show") ?>
+								
 								<?php button_action("panel/product/update/$prod->product_id","Update") ?>
 								<?php button_action("panel/product/delete/$prod->product_id","Delete") ?>
 							</td>
