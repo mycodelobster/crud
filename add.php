@@ -18,7 +18,7 @@
 						<legend>Add New</legend>
 						<?php form_text('name') ?>
 						<?php form_textarea('description') ?>
-						<?php form_button('Add Product') ?>
+						<?php form_button('Add New') ?>
 					</form>
 				</div>
 			</div>
