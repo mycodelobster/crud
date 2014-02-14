@@ -15,7 +15,7 @@
 				<div class="box">
 					<form action="" method="POST" role="form">
 						<?php alert() ?>
-						<legend>Add Product</legend>
+						<legend>Add New</legend>
 						<?php form_text('name') ?>
 						<?php form_textarea('description') ?>
 						<?php form_button('Add Product') ?>
