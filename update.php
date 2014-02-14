@@ -15,10 +15,10 @@
 				<div class="box">
 					<form action="" method="POST" role="form">
 						<?php alert() ?>
-						<legend>Update Product</legend>
+						<legend>Update</legend>
 						<?php form_text('name',$product->product_name) ?>
 						<?php form_textarea('description',$product->product_desc) ?>
-						<?php form_button('Update Product') ?>
+						<?php form_button('Update') ?>
 					</form>
 				</div>
 			</div>
